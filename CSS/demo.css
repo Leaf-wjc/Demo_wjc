@@ -142,7 +142,11 @@ a{
 .pic-lit ul li p:nth-last-child(1){
 	color:#BDBDBC;
 }
-
+.wrap{
+	width:100%;
+	background-color:#EAEAEA;
+	padding-bottom:125px;
+}
 .article-block{
 	width:992px;
 	margin:0 auto;
@@ -177,5 +181,4 @@ a{
 	text-align:center;
 	line-height:100px;
 	font-size:14px;
-	margin-top:125px;
 }
