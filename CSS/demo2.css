@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Helvetica";/*Mac系统中未下载微软雅黑字体，暂时用Helvetica代替*/
+}
+ul{
+	list-style:none;
+	overflow:hidden;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+img{
+	display:block;
+}
+.nav{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	background-color:#06CBC9;
+	overflow:hidden;
+}
+.logo{
+	float:left;
+	margin-left:115px;
+}
+.logo img{
+	padding-top:16px;
+}
+.nav-li{
+	float:right;
+	margin-right:65px;
+}
+.nav-li ul li{
+	float:left;
+	padding:0 12px;
+	color:white;
+	font-weight:bold;
+}
+
+.banner-wrap{
+	width:100%;
+	height:600px;
+	position: relative;
+}
+.banner img{
+	width:100%;
+	height:600px;
+}
+.banner-wrap .mask{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:600px;
+	background-color:#000000;
+	opacity:0.5;
+}
+.banner-wrap .send-message{
+	width:511px;
+	height:372px;
+	position: absolute;
+	margin:auto auto;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+}
+.banner-wrap .send-message tr td{
+	border:none;
+	padding-bottom:20px;
+}
+.banner-wrap .send-message tr td input{
+	width:505px;
+	height:39px;
+	border:2px solid #a29c9c;
+	color:#a29c9c;
+	background-color:transparent;
+	text-indent:10px;
+}
+.banner-wrap .send-message tr td textarea{
+	width:505px;
+	height:115px;
+	border:2px solid #a29c9c;
+	color:#a29c9c;
+	background-color:transparent;
+	text-indent:10px;
+}
+.banner-wrap .send-message tr td button{
+	width:123px;
+	height:39px;
+	text-align:center;
+	border:2px solid #a29c9c;
+	color:#a29c9c;
+	background-color:transparent;
+	margin-left:192px;
+}
