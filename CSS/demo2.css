@@ -1,9 +1,10 @@
+/*初始化样式*/
 *{
 	margin:0;
 	padding:0;
 }
 body{
-	font-family:"Microsoft YaHei UI";/*Mac系统中未下载微软雅黑字体，暂时用Helvetica代替*/
+	font-family:"Helvetica";/*Mac系统中未下载微软雅黑字体，暂时用Helvetica代替*/
 }
 ul{
 	list-style:none;
@@ -17,6 +18,7 @@ a{
 img{
 	display:block;
 }
+/*导航样式开始*/
 .nav{
 	width:100%;
 	height:80px;
@@ -47,6 +49,8 @@ img{
 .nav-li ul li a:hover{
 	color:#E29795;
 }
+/*导航样式结束*/
+/*banner图样式开始*/
 .banner-wrap{
 	width:100%;
 	height:600px;
@@ -56,6 +60,7 @@ img{
 	width:100%;
 	height:600px;
 }
+/*遮罩层*/
 .banner-wrap .mask{
 	position: absolute;
 	left:0;
@@ -65,6 +70,7 @@ img{
 	background-color:#000000;
 	opacity:0.5;
 }
+/*表单容器样式*/
 .banner-wrap .send-message{
 	width:511px;
 	height:372px;
@@ -119,16 +125,18 @@ img{
 	color:white;
 	background-color:#07cbc9;
 }
-.about-wrap{
+/*banner图样式结束*/
+.about-top{
 	width:100%;
 	height:735px;
 }
-.about-wrap .about{
+.about-top .about{
 	width:1080px;
 	height:735px;
 	margin:0 auto;
 }
-.about-wrap .about-tit{
+/*通用标题样式*/
+.general-tit{
 	font-size:50px;
 	font-weight:bold;
 	text-align:center;
@@ -140,10 +148,14 @@ img{
 	background-color:#07CBC9;
 	margin:20px auto;
 }
-.about-message p{
+/*通用简述样式*/
+.general-message p{
+	font-size:12px;
 	text-align:center;
 	line-height:1.5em;
+	color:#BEBEC3;
 }
+/*about图文交叉显示*/
 .pic-word {
 	height:380px;
 	position: relative;
@@ -215,23 +227,80 @@ img{
 .letter-size{
 	font-size:22px;
 }
-.test{
+
+/*about展示区下半部分（图文混排）样式*/
+.about-bottom{
 	width:100%;
-	height:800px;
-	background-color:pink;
+	height:auto;
+	overflow:hidden;
+	border:1px solid;
+	background-color:#07cbc9;
+}
+.about-bottom div{
+	width:25%;
+	height: 400px;
+	float:left;
+}
+.about-bottom div.school-pic img{
+	width:100%;
+	height:100%;
+}
+.school-intro p{
+	line-height:1.5em;
+	margin:15px 35px 0px;
+}
+/*通用文字属性样式*/
+.fontSize12per{
+	color:#D6DBDB;
+	font-size:12px;
+}
+.fontSize14per{
+	font-size:14px;
+	color:#E9E9DE;
+}
+.fontSize22per{
+	font-size:22px;
+	color:white;
+}
+/*图文混排button样式*/
+.ex-btn{
+	display:block;
+	width:100px;
+	height:43px;
+	font-size:14px;
+	border:1px solid black;
+	color:white;
+	background-color:black;
+	margin:25px auto 0;
+}
+.ex-btn:hover{
+	color:black;
+	background-color:rgba(0,0,0,0);
+	cursor:pointer;
+}
+
+/*galler展示区样式*/
+.gallery-pic{
+	width:1170px;
+	margin:0 auto;
+	height:auto;
+}
+.gallery-pic ul li{
+	float:left;
+	padding:15px;
+}
+.gallery-pic ul li p{
+	line-height:64px;
+	background-color:black;
+	color:white;
+	text-indent:2em;
 }
 
 
 
-
-
-
-
-
-
-
-
+/*页脚样式*/
 .footer{
+	margin-top:20px;
 	width:100%;
 	color:white;
 	font-size:14px;
