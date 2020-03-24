@@ -3,7 +3,7 @@
 	padding:0;
 }
 body{
-	font-family:"Helvetica";/*Mac系统中未下载微软雅黑字体，暂时用Helvetica代替*/
+	font-family:"Microsoft YaHei UI";/*Mac系统中未下载微软雅黑字体，暂时用Helvetica代替*/
 }
 ul{
 	list-style:none;
@@ -11,6 +11,7 @@ ul{
 }
 a{
 	text-decoration:none;
+	font-size:0px;
 	color:black;
 }
 img{
@@ -20,7 +21,7 @@ img{
 	width:100%;
 	height:80px;
 	line-height:80px;
-	background-color:#06CBC9;
+	background-color:#07CBC9;
 	overflow:hidden;
 }
 .logo{
@@ -37,10 +38,15 @@ img{
 .nav-li ul li{
 	float:left;
 	padding:0 12px;
+}
+.nav-li ul li a{
 	color:white;
+	font-size:16px;
 	font-weight:bold;
 }
-
+.nav-li ul li a:hover{
+	color:#E29795;
+}
 .banner-wrap{
 	width:100%;
 	height:600px;
@@ -82,6 +88,10 @@ img{
 	background-color:transparent;
 	text-indent:10px;
 }
+.banner-wrap .send-message tr td input:hover{
+	border-color:#07cbc9;
+}
+
 .banner-wrap .send-message tr td textarea{
 	width:505px;
 	height:115px;
@@ -90,12 +100,142 @@ img{
 	background-color:transparent;
 	text-indent:10px;
 }
+.banner-wrap .send-message tr td textarea:hover{
+	border-color:#07cbc9;
+}
 .banner-wrap .send-message tr td button{
 	width:123px;
 	height:39px;
 	text-align:center;
 	border:2px solid #a29c9c;
 	color:#a29c9c;
+	font-size:14px;
 	background-color:transparent;
 	margin-left:192px;
+}
+.banner-wrap .send-message tr td button:hover{
+	cursor:pointer;
+	border:none;
+	color:white;
+	background-color:#07cbc9;
+}
+.about-wrap{
+	width:100%;
+	height:735px;
+}
+.about-wrap .about{
+	width:1080px;
+	height:735px;
+	margin:0 auto;
+}
+.about-wrap .about-tit{
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:50px;
+}
+.line{
+	width:40px;
+	height:2px;
+	background-color:#07CBC9;
+	margin:20px auto;
+}
+.about-message p{
+	text-align:center;
+	line-height:1.5em;
+}
+.pic-word {
+	height:380px;
+	position: relative;
+	margin-top:30px;
+}
+.pic-word .left{
+	width:210px;
+	height:auto;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index:1;
+}
+.pic-word .left .left-tit{
+	text-align:center;
+	font-size:35px;
+	padding:20px 0 10px;
+}
+.pic-word .left .left-content{
+	width:320px;
+	height:196px;
+	border:1px solid #b7b2b2;
+	padding:25px;
+	line-height:1.5em;
+	background-color:rgba(255,255,255,0.48);
+}
+.pic-word .left .left-content button{
+	width:100px;
+	height:43px;
+	font-size:18px;
+	border:1px solid black;
+	color:white;
+	background-color:black;
+	margin-top:30px;
+}
+.pic-word .left .left-content button:hover{
+	color:black;
+	background-color:rgba(0,0,0,0);
+	cursor:pointer;
+}
+.pic-word .center{
+	position: absolute;
+	width:568px;
+	height:380px;
+	left:230px;
+	top:0;
+}
+.pic-word .center img{
+	width:568px;
+	height:380px;
+}
+.pic-word .right{
+	position: absolute;
+	top:0;
+	right:0;
+}
+.pic-word .right .right-item{
+	width:238px;
+	height: 144px;
+	text-align:center;
+	border:1px solid #17CBC8;
+	margin-bottom:30px;
+}
+.num-size{
+	padding-top:20px;
+	font-size:35px;
+	font-weight:bold;
+}
+.letter-size{
+	font-size:22px;
+}
+.test{
+	width:100%;
+	height:800px;
+	background-color:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	width:100%;
+	color:white;
+	font-size:14px;
+	background-color:#07cbc9;
+	line-height:80px;
+	text-align:center;
 }
