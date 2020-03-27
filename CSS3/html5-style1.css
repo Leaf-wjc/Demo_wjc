@@ -1,0 +1,68 @@
+*{
+	font-family: "Arial";
+	font-size: 14px;
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	height: 80px;
+	background-color: #080808;
+}
+header > .container{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header > .container > a{
+	display: block;
+	float: left;
+	font-size:0px;
+	padding: 20px 0 0;
+}
+header > .container > a > span{
+	font-size:24px;
+	color: white;
+	padding-left: 5px;
+}
+header > .container > nav {
+	float: right;
+}
+header > .container > nav > a{
+	float: left;
+	font-size: 20px;
+	color: white;
+	display: block;
+	width: 110px;
+	height: 73px;
+	line-height: 73px;
+	text-align: center;
+}
+
+header > .container > nav > a:nth-child(1){
+	background-color: #D30B1B;
+}
+header > .container > nav > a:nth-child(2){
+	background-color: #FEB932;
+}
+header > .container > nav > a:nth-child(3){
+	background-color: #79B933;
+}
+header > .container > nav > a:nth-child(4){
+	background-color: #433B8D;
+}
+header > .container > nav > a:nth-child(5){
+	background-color: #F17D24;
+}
+header > .container > nav > a:nth-child(6){
+	background-color: #067FC8;
+}
+header > .container > nav > a:hover,
+header > .container > nav > a:active{
+	padding-bottom: 7px;
+}
