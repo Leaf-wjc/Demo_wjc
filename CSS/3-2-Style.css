@@ -1,0 +1,38 @@
+/*Clean Init Style*/
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+ul { list-style: none; }
+table.wrap { width: 100%; }
+
+/*Header-START*/
+header { width: 100%; height: 60px; background-color: #1b9bd2; }
+header > a { font-size: 0; display: block; padding-top: 10px; }
+header > img { display: block; }
+
+/*订单列表样式START*/
+table.main { width: 100%; border-collapse: collapse; border: 2px solid #929292; }
+td.left { width: 12%; vertical-align: top; }
+td.right { width: 88%; vertical-align: top; }
+aside { margin: 15px 0 0 15px; }
+aside > dl { margin-bottom: 40px; }
+aside > dl > dd { margin-bottom: 18px; }
+aside > dl:nth-child(2) > dt { font-weight: bold; margin-bottom: 18px; }
+
+/*订单头部样式START*/
+table.top, table.list { width: 100%; border: 2px solid #929292; }
+table.top td { height: 50px; padding-left: 15px; }
+table.list img { display: block; height: 46px; margin: 0 auto; padding-bottom: 4px; }
+table.list tr td { height: 50px; text-align: center; border-width: 2px; }
+
+/*table列表信息样式START*/
+table.list tr:first-of-type td:first-of-type { width: 40%; }
+table.list tr:first-of-type td:nth-child(2) { width: 12%; }
+table.list tr:first-of-type td:nth-child(3) { width: 5%; }
+table.list tr:first-of-type td:nth-child(4) { width: 8%; }
+table.list tr:first-of-type td:nth-child(5) { width: 17%; }
+table.list tr:first-of-type td:nth-child(6) { width: 8%; }
+table.list tr:first-of-type td:nth-child(7) { width: 10%; }
+table.list tr:nth-child(2) td:first-of-type { width: 8%; }
+
+/*footer页脚START*/
+footer { line-height: 60px; width: 100%; height: 60px; text-align: center; background-color: #1b9bd2; }
