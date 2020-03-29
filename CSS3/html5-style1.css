@@ -66,3 +66,29 @@ header > .container > nav > a:hover,
 header > .container > nav > a:active{
 	padding-bottom: 7px;
 }
+/*banner开始*/
+.banner{
+	background-color: #eaeaea;
+}
+.banner > ul {
+	position: relative;
+	width: 1490px;
+	height: 300px;
+	border:1px solid black;
+	overflow: hidden;
+}
+.banner > ul > li {
+	position: absolute;
+	width: 610px;
+	height: 300px;
+	overflow: hidden;
+}
+.banner > ul > li:nth-child(1){
+	z-index: 2;
+	top: 37px;
+	left:0;
+	right: 0;
+	margin: auto;
+	width:960px;
+	height: 460px;
+}
