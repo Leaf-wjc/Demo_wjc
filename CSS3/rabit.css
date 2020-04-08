@@ -55,7 +55,6 @@ div.sky div.common-property{
 }
 /*五个不同的云彩样式及动画属性 - START*/
 div.sky div.cloud-one{
-    left: 0px;
     top: 16px;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -68,7 +67,6 @@ div.sky div.cloud-one{
     animation-duration: 7s;
 }
 div.sky div.cloud-two{
-    left: 0px;
     top: 90px;
     -webkit-animation-duration: 6s;
     -moz-animation-duration: 6s;
@@ -76,7 +74,6 @@ div.sky div.cloud-two{
     animation-duration: 6s;
 }
 div.sky div.cloud-three{
-    left: 300px;
     top: 90px;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
@@ -90,7 +87,6 @@ div.sky div.cloud-three{
 }
 
 div.sky div.cloud-four{
-    left: 0px;
     top: 190px;
     -webkit-transform: scale(0.65);
     -moz-transform: scale(0.65);
@@ -104,7 +100,6 @@ div.sky div.cloud-four{
 }
 /*五个云彩样式及动画属性 - END*/
 div.sky div.cloud-five{
-    left: 300px;
     top: 190px;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
