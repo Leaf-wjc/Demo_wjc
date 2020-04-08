@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c2b0047-301f-4938-8099-ba2b190bec09" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS3/rabit.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3/rabit.css" afterDir="false" />
-    </list>
+    <list default="true" id="6c2b0047-301f-4938-8099-ba2b190bec09" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -72,8 +70,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="473" />
-    <option name="y" value="80" />
+    <option name="x" value="963" />
+    <option name="y" value="51" />
     <option name="width" value="1231" />
     <option name="height" value="1013" />
   </component>
@@ -90,16 +88,6 @@
             <path>
               <item name="Demo_wjc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo_wjc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo_wjc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo_wjc" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo_wjc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo_wjc" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,16 +133,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586329445529</updated>
-      <workItem from="1586329448013" duration="10041000" />
+      <workItem from="1586329448013" duration="10066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10041000" />
+    <option name="totallyTimeSpent" value="10066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="473" y="80" width="1231" height="1013" extended-state="0" />
-    <editor active="true" />
+    <frame x="963" y="51" width="1231" height="1013" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26694214" />
       <window_info anchor="bottom" id="TODO" order="6" />
