@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --h1:#1b2f90;
+    --bg:#f9f9f6;
+}
+body {
+    background: #1b9bd2;
+}
+.dog {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background: #79b933;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.head {
+    width: 102px;
+    height: 48px;
+    background: var(--bg);
+    border-radius: 50%/40px 40px 8px 8px;
+}
+.face{
+    width: 110px;
+    height: 68px;
+    border-radius: 50%;
+    background: var(--bg);
+    top: 20px;
+}
+.chin{
+    width: 104px;
+    height: 36px;
+    border-radius: 52px/0 0 36px 36px;
+    background: var(--bg);
+    top: 60px;
+}
+
